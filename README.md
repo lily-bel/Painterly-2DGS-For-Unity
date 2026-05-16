@@ -1,7 +1,7 @@
 # Painterly-2DGS-For-Unity
 A fast 2DGS implementation for Unity with brushstroke texture options.
 
-<img width="600" alt="splat8" src="https://github.com/user-attachments/assets/dd9f8bac-0a9e-4bb3-859d-3a62ceb71e4e" />
+<img width="1212" height="570" alt="splatgif" src="https://github.com/user-attachments/assets/32bfc3a4-118e-4e07-9479-1fe83501b9ef" />
 
 ## How to use
 Download the package and import into Unity. This shader works on **.ply files**. You may need to reimport the ply files for the editor scripts to take effect.
