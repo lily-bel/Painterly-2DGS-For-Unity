@@ -1,5 +1,6 @@
 # Painterly-2DGS-For-Unity
 A fast 2DGS implementation for Unity with brushstroke texture options.
+
 <img width="600" alt="splat8" src="https://github.com/user-attachments/assets/dd9f8bac-0a9e-4bb3-859d-3a62ceb71e4e" />
 
 ## How to use
