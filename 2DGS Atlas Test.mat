@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2DGS Atlas Test
+  m_Shader: {fileID: 4800000, guid: 8f5bc743c4b24db4ca2f7dc29f298f59, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DISTANCE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: b6944b8ec29ad124c9ebbe7b111fdfd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5b74a132207148643b62cc6f5448e633, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.063
+    - _AlphaToMask: 0
+    - _CullOpacity: 0.25
+    - _CullSize: 0.001
+    - _Decimation: 0
+    - _Distance: 1
+    - _DitherSpread: 0.48
+    - _DitherType: 0
+    - _EnableDithering: 0
+    - _EnableLighting: 0
+    - _EnableWobble: 0
+    - _FakeVariance: 0
+    - _Gamma: 0.38
+    - _GaussianPower: 15
+    - _LargeSizeThreshold: 0.0007
+    - _LookAtTarget: 0
+    - _LowOpacityThreshold: 0.39
+    - _MidOpacityThreshold: 0.577
+    - _OpacityRatioCutoff: 2
+    - _OpacityScaleCurve: 0.71
+    - _PointSize: 0.013
+    - _PointSizeMax: 0.02
+    - _PointSizeMin: 0.01
+    - _RatioCutoff: 1.6
+    - _RatioCutoff1: 1.5
+    - _RatioCutoff2: 3
+    - _RatioCutoff3: 5
+    - _ScaleMultiplier: 2.9
+    - _SingleTextureMode: 0
+    - _UseTwoPass: 0
+    - _WobbleFrequency: 18.2
+    - _WobbleSpeed: 5
+    - _WobbleStrength: 0.01
+    - _WobbleType: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _TargetPosition: {r: 7.769715, g: 8.077711, b: 19.46419, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
