@@ -21,4 +21,5 @@ Add the Point Cloud Renderer runtime script to your .ply object and assign a sha
 
 # Aknowledgements
 Point cloud rendering based on [https://github.com/keijiro/pcx](keijiro's pcx shader).
+
 2DGS test .ply files from Nerf Baselines.
