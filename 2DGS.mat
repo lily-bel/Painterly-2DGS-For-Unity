@@ -62,7 +62,7 @@ Material:
     - _RatioCutoff1: 1.5
     - _RatioCutoff2: 3
     - _RatioCutoff3: 5
-    - _ScaleMultiplier: 4.78
+    - _ScaleMultiplier: 5.47
     - _SingleTextureMode: 1
     - _UseTwoPass: 0
     - _WobbleFrequency: 5
