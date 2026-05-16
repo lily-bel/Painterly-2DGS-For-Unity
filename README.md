@@ -7,12 +7,13 @@ A fast 2DGS implementation for Unity with brushstroke texture options.
 Download the package and import into Unity. This shader works on **.ply files**. You may need to reimport the ply files for the editor scripts to take effect.
 Add the Point Cloud Renderer runtime script to your .ply object and assign a shader to the component.
 
-## Shaders
-4 shaders are included.
--**2DGS** - This is an implementation of 2DGS using dithering instead of transparency.
--**2DGS Fast** - A faster implementation of dithered 2DGS. Uses a faster dither falloff so the texture can be smaller while retaining similar coverage.
--**2DGS Paint** - 2DGS with brushstrokes. Uses a 2x2 texture atlas to represent long/short/solid/faint splats with different brushstrokes.
--**2DGS Atlas Test** - Test shader for seeing texture atlas ranges.
+## Shader
+4 materials are included of the same shader. 
+- **2DGS** - This is an implementation of 2DGS using dithering instead of transparency.
+- **2DGS Fast** - A faster implementation of dithered 2DGS. Uses a faster dither falloff so the texture can be smaller while retaining similar coverage.
+- **2DGS Paint** - 2DGS with brushstrokes. Uses a 2x2 texture atlas to represent long/short/solid/faint splats with different brushstrokes. Mipmaps are forced to higher quality (first 3 are full res, then halves after).
+- **2DGS Paint Fast** - Brushstrokes with full mipmapping, using stretched dithering to retain paint look.
+- **2DGS Atlas Test** - Test shader for seeing texture atlas ranges.
 
 # Other Contents
 - The package contains an editor script (Tools -> Dithered Mipmap Generator) to generate mipmaps with more precision. These act as normal textures after generation. The tool has options for how the scaling is done to preserve dithering. Horizontal noise stretch can be set (around 8 works best) to preserve the streakiness of the texture at smaller sizes. Set the filter mode of the resulting file to Point.
