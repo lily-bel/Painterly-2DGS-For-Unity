@@ -20,6 +20,6 @@ Add the Point Cloud Renderer runtime script to your .ply object and assign a sha
 - 2DGS Test scene has several 2DGS .ply files for testing. Models are in the Point Clouds folder.
 
 # Aknowledgements
-Point cloud rendering based on [https://github.com/keijiro/pcx](keijiro's pcx shader).
+Point cloud rendering based on [keijiro's point cloud shader](https://github.com/keijiro/pcx).
 
 2DGS test .ply files from Nerf Baselines.
