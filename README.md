@@ -19,7 +19,7 @@ Add the Point Cloud Renderer runtime script to your .ply object and assign a sha
 - The package contains an editor script (Tools -> Dithered Mipmap Generator) to generate mipmaps with more precision. These act as normal textures after generation. The tool has options for how the scaling is done to preserve dithering. Horizontal noise stretch can be set (around 8 works best) to preserve the streakiness of the texture at smaller sizes. Set the filter mode of the resulting file to Point.
 - 2DGS Test scene has several 2DGS .ply files for testing. Models are in the Point Clouds folder.
 
-# Aknowledgements
+# Acknowledgements
 Point cloud rendering based on [keijiro's point cloud shader](https://github.com/keijiro/pcx).
 
 2DGS test .ply files from Nerf Baselines.
