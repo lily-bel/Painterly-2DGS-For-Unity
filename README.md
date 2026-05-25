@@ -10,7 +10,7 @@ Add the Point Cloud Renderer runtime script to your .ply object and assign a mat
 ## Shader
 4 materials are included of the same shader. Options to add/remove wobbly effect, adjust exposure and texture size, and supports 2x2 atlas or single texture.
 - **2DGS** - This is an implementation of 2DGS using dithering instead of transparency.
-- **2DGS Fast** - A faster implementation of dithered 2DGS. Uses a faster dither falloff so the texture can be smaller while retaining similar coverage.
+- **2DGS Fast** - A faster implementation of dithered 2DGS. Uses a harsher dither falloff so the texture can be smaller while retaining similar coverage.
 - **2DGS Paint** - 2DGS with brushstrokes. Uses a 2x2 texture atlas to represent long/short/solid/faint splats with different brushstrokes. Mipmaps are forced to higher quality (first 3 are full res, then halves after).
 - **2DGS Paint Fast** - Brushstrokes with full mipmapping, using stretched dithering to retain paint look.
 - **2DGS Atlas Test** - Test shader for seeing texture atlas ranges.
