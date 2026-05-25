@@ -4,8 +4,8 @@ A fast 2D Gaussian Splatting shader implementation for Unity with brushstroke te
 <img width="1212" height="570" alt="splatgif" src="https://github.com/user-attachments/assets/32bfc3a4-118e-4e07-9479-1fe83501b9ef" />
 
 ## How to use
-Download the package and import into Unity. This shader works on **.ply files**. You may need to reimport the ply files for the editor scripts to take effect.
-Add the Point Cloud Renderer runtime script to your .ply object and assign a shader to the component.
+Download the package and import into Unity. This shader works on **.ply files**. You may need to reimport the .ply files for the editor scripts to take effect.
+Add the Point Cloud Renderer runtime script to your .ply object and assign a material to the component.
 
 ## Shader
 4 materials are included of the same shader. Options to add/remove wobbly effect, adjust exposure and texture size, and supports 2x2 atlas or single texture.
